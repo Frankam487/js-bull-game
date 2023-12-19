@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    cursor: all-scroll;
+    /* background: url(./img/a7d8fd7f07974ea7a185e912063e762f.jpg)center/cover; */
+}
+
+h3{
+    font-size: 10rem;
+    margin-left: 50%;
+}
+
+.bulle {
+    filter: hue-rotate(0);
+    background: rgb(208, 226, 49);
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    animation: anim 8s forwards;
+
+}
+
+
+@keyframes anim {
+    to{
+        top: -250px;
+        filter: hue-rotate(1000deg);
+        left: var(--left);
+        opacity: 1;
+    }
+}
+.togle {
+    background: skyblue;
+}
