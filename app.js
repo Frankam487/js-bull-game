@@ -20,14 +20,14 @@ const bulles = () => {
     bulle.remove();
   }, 8000);
 
-
+//ajout d'un l'évènement au clic sur une bulle
   bulle.addEventListener("click", () => {
     count++;
     h3.textContent = count;
     bulle.remove();
   });
 };
-
+//création d'une bulle toutes les 300 milliseconde
 setInterval(() => {
-  bull();
+  bulles();
 }, 300);
