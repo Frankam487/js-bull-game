@@ -1,6 +1,7 @@
 const h3 = document.querySelector("h3");
 let count = 0;
 
+
 const bulles = () => {
   //creation d'une bulle
   const bulle = document.createElement("span");
