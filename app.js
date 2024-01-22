@@ -11,6 +11,7 @@ const bulles = () => {
   bulle.style.width = size;
   bulle.style.height = size;
 //style randomisé
+  
   bulle.style.top = Math.random() * 100 + 50 + "%";
   bulle.style.left = Math.random() * 100 + "%";
 //style particulier
