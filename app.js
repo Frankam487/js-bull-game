@@ -26,7 +26,6 @@ const bulles = () => {
     count++;
     h3.textContent = count;
     bulle.remove();
-
   });
 };
 //création d'une bulle toutes les 300 milliseconde
