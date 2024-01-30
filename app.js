@@ -7,6 +7,7 @@ const bulles = () => {
   document.body.appendChild(bulle);
   bulle.classList.add("bulle");
 
+  
   const size = Math.random() * 200 + 100 + "px";
   bulle.style.width = size;
   bulle.style.height = size;
