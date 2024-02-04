@@ -17,7 +17,6 @@ const bulles = () => {
   setTimeout(() => {
     bulle.remove();
   }, 8000);
-
   
 //ajout d'un l'évènement au clic sur une bulle
   bulle.addEventListener("click", () => {
