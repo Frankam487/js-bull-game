@@ -27,6 +27,7 @@ const bulles = () => {
     bulle.remove();
   });
 };
+
 //création d'une bulle toutes les 300 milliseconde
 setInterval(() => {
   bulles();
