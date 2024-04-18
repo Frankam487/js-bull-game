@@ -1,8 +1,6 @@
 const h3 = document.querySelector("h3");
 let count = 0;
 const bulles = () => {
-  
-  
   const bulle = document.createElement("span");
   document.body.appendChild(bulle);
   bulle.classList.add("bulle");
