@@ -1,7 +1,6 @@
 body {
     min-height: 100vh;
-    cursor: all-scroll;
-   
+    cursor: all-scroll;  
 }
 
 h3{
@@ -15,7 +14,7 @@ h3{
     border-radius: 50%;
     opacity: 0;
     position: absolute;
-    animation: anim 8s forwards;
+    animation: anim 7.5s forwards;
 
 }
 
