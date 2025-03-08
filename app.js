@@ -1,7 +1,7 @@
 const h3 = document.querySelector("h3");
 let count = 0;
 
-//bulle function
+
 const bulles = () => {
   const bulle = document.createElement("span");
   document.body.appendChild(bulle);
@@ -25,6 +25,7 @@ const bulles = () => {
   bulle.addEventListener("click", () => {
     count++;
     h3.textContent = count;
+    //retirer les bulles du DOM
     bulle.remove();
   });
 };
